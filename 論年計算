@@ -1,0 +1,8 @@
+# -*- coding: UTF-8 -*-
+thisyear = int(input())
+if(thisyear % 4 == 0 and thisyear % 100!= 0):
+    print("今年是閏年")
+elif(thisyear % 400 == 0 ):
+    print("今年是閏年")
+else:
+    print("今年是平年")
